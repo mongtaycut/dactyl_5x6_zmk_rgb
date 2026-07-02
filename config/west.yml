@@ -1,13 +1,13 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url: https://github.com
+      url: https://github.com/zmkfirmware/zmk
     - name: crystalplanet
-      url: https://github.com
+      url: https://github.com/crystalplanet
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: v0.3
       import: app/west.yml
     - name: zmk-rgb-fx
       remote: crystalplanet
